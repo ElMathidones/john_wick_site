@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Universo John Wick</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>JOHN WICK</h1>
+    <nav>
+        <a href="#filmes">Filmes</a>
+        <a href="#trailers">Trailers</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+    </header>
+
+    <section class="hero">
+    <div class="hero-content fade">
+        <h2 id="titulo-filme">John Wick</h2>
+        <p id="sinopse-filme">
+        Selecione um filme abaixo para ver detalhes.
+        </p>
+        <p class="imdb">IMDb: <span id="nota-imdb">-</span></p>
+    </div>
+    </section>
+
+    <section id="filmes" class="filmes">
+    <h2>Os Filmes</h2>
+
+    <div class="cards">
+        <div class="card" onclick="mudarFilme(1)">
+        <img src="imagens/jw1.jpg">
+        </div>
+
+        <div class="card" onclick="mudarFilme(2)">
+        <img src="imagens/jw2.jpg">
+        </div>
+
+        <div class="card" onclick="mudarFilme(3)">
+        <img src="imagens/jw3.jpg">
+        </div>
+
+        <div class="card" onclick="mudarFilme(4)">
+        <img src="imagens/jw4.jpg">
+        </div>
+    </div>
+    </section>
+
+    <section id="trailers" class="trailer-section">
+    <h2>Trailer</h2>
+    <div class="trailer-container">
+        <iframe id="trailer-filme"
+        src=""
+        allowfullscreen>
+        </iframe>
+    </div>
+    </section>
+
+    <section id="faq" class="faq">
+    <h2>Perguntas Frequentes</h2>
+
+    <div class="faq-item">
+        <button class="faq-question">Quantos filmes existem?</button>
+        <div class="faq-answer">
+        A franquia possui quatro filmes principais lançados entre 2014 e 2023.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Quem interpreta John Wick?</button>
+        <div class="faq-answer">
+        O personagem é interpretado por Keanu Reeves.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Qual a ordem correta para assistir?</button>
+        <div class="faq-answer">
+        John Wick (2014), John Wick 2 (2017),
+        John Wick 3 (2019) e John Wick 4 (2023).
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">Onde assistir?</button>
+        <div class="faq-answer">
+        Disponível em plataformas digitais como Prime Video e Apple TV.
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 - Projeto John Wick
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
